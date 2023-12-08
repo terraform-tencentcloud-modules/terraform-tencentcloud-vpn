@@ -66,5 +66,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ccn_id"></a> [ccn\_id](#output\_ccn\_id) | The Id of VPN Gateway. |
+| <a name="output_vpn_instance_id"></a> [vpn\_instance\_id](#output\_vpn\_instance\_id) | The Id of VPN Gateway. |
 <!-- END_TF_DOCS -->
