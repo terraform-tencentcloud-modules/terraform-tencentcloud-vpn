@@ -1,5 +1,5 @@
 # terraform-tencentcloud-vpn
-Terraform module which creates VPN resources on TencentCloud
+Terraform module which creates VPN ipsec resources on TencentCloud
 
 ## Usage
 

@@ -7,6 +7,9 @@ resource "tencentcloud_vpn_customer_gateway" "customer_gateway" {
   tags              = var.customer_gateway_tags
 }
 
+################################################################################
+# VPN Connection
+################################################################################
 resource "tencentcloud_vpn_connection" "connection" {
   name                       = var.connection_name
   vpc_id                     = var.vpc_id
@@ -45,6 +48,9 @@ resource "tencentcloud_vpn_connection" "connection" {
   tags = try(var.vpn_connection_tags, {})
 }
 
+################################################################################
+# VPN Gateway Route
+################################################################################
 resource "tencentcloud_vpn_gateway_route" "vpn_gateway_route" {
   vpn_gateway_id         = var.vpn_gateway_id
   destination_cidr_block = var.destination_cidr_block

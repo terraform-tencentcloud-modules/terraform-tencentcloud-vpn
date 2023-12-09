@@ -21,6 +21,8 @@ module "ccn" {
 ## Examples
 
 - [Simple VPN](https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-vpn/tree/master/examples/simple-vpn)
+- [IPSEC VPN](https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-vpn/tree/master/examples/ipsec-vpn)
+- [SSL VPN](https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-vpn/tree/master/examples/ssl-vpn)
   
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
