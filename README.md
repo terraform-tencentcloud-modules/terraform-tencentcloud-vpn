@@ -4,7 +4,7 @@ Terraform module which creates VPN resources on TencentCloud
 ## Usage
 
 ```hcl
-module "ccn" {
+module "vpn_gateway" {
   source = "terraform-tencentcloud-modules/vpn/tencentcloud"
 
   vpn_gateway_name = "ccn_test"
