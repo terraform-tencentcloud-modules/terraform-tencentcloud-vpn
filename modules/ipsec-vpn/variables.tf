@@ -173,7 +173,7 @@ variable "vpn_connection_tags" {
   default     = {}
 }
 
-// Gateway route
+# Gateway route
 variable "destination_cidr_block" {
   description = "Destination IDC IP range."
   type        = string

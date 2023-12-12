@@ -17,6 +17,6 @@ resource "tencentcloud_vpn_ssl_server" "server" {
 # VPN Ssl Client
 ################################################################################
 resource "tencentcloud_vpn_ssl_client" "client" {
-  ssl_vpn_server_id   = concat(tencentcloud_vpn_ssl_server.server.*.id, [""])[0]
+  ssl_vpn_server_id   = tencentcloud_vpn_ssl_server.server.id
   ssl_vpn_client_name = var.ssl_vpn_client_name
 }

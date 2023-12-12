@@ -48,4 +48,3 @@ variable "ssl_vpn_client_name" {
   description = "VPN gateway ID."
   type        = string
 }
-

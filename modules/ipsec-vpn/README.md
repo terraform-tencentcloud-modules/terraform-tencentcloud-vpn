@@ -104,3 +104,12 @@ No modules.
 | <a name="output_vpn_customer_gateway_id"></a> [vpn\_customer\_gateway\_id](#output\_vpn\_customer\_gateway\_id) | The Id of VPN customer gateway. |
 | <a name="output_vpn_gateway_route"></a> [vpn\_gateway\_route](#output\_vpn\_gateway\_route) | The Id of VPN Route. |
 <!-- END_TF_DOCS -->
+
+## Authors
+
+Created and maintained by [TencentCloud](https://github.com/terraform-providers/terraform-provider-tencentcloud)
+
+## License
+
+Mozilla Public License Version 2.0.
+See LICENSE for full details.

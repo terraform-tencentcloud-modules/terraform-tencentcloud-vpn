@@ -69,3 +69,21 @@ No modules.
 | <a name="output_vpn_ssl_client_id"></a> [vpn\_ssl\_client\_id](#output\_vpn\_ssl\_client\_id) | The Id of VPN SSL Client. |
 | <a name="output_vpn_ssl_server_id"></a> [vpn\_ssl\_server\_id](#output\_vpn\_ssl\_server\_id) | The Id of VPN SSL Server. |
 <!-- END_TF_DOCS -->
+
+## Authors
+
+Created and maintained by [TencentCloud](https://github.com/terraform-providers/terraform-provider-tencentcloud)
+
+## License
+
+Mozilla Public License Version 2.0.
+See LICENSE for full details.
+
+## Authors
+
+Created and maintained by [TencentCloud](https://github.com/terraform-providers/terraform-provider-tencentcloud)
+
+## License
+
+Mozilla Public License Version 2.0.
+See LICENSE for full details.

@@ -70,3 +70,12 @@ No modules.
 |------|-------------|
 | <a name="output_vpn_instance_id"></a> [vpn\_instance\_id](#output\_vpn\_instance\_id) | The Id of VPN Gateway. |
 <!-- END_TF_DOCS -->
+
+## Authors
+
+Created and maintained by [TencentCloud](https://github.com/terraform-providers/terraform-provider-tencentcloud)
+
+## License
+
+Mozilla Public License Version 2.0.
+See LICENSE for full details.

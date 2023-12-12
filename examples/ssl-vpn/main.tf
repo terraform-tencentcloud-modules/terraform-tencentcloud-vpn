@@ -41,7 +41,7 @@ module "vpn_gateway" {
 locals {
   ssl_map = {
     "ssl_related_resource" = {
-      vpn_gateway_id     = module.vpn_gateway["ssl_vpn_instance"].vpn_instance_id
+      vpn_gateway_id = module.vpn_gateway["ssl_vpn_instance"].vpn_instance_id
       local_address = [
         "10.0.0.0/17",
       ]
@@ -58,7 +58,7 @@ locals {
   }
 }
 
-module "ssl-vpn" {
+module "ssl_vpn" {
   source = "../../modules/ssl-vpn"
 
   for_each = local.ssl_map

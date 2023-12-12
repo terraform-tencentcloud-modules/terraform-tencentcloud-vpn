@@ -64,7 +64,7 @@ locals {
   }
 }
 
-module "ipsec-vpn" {
+module "ipsec_vpn" {
   source = "../../modules/ipsec-vpn"
 
   for_each = local.ipec_map
